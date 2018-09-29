@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_edge">16dp</dimen>
+    <dimen name="space_between_items">16dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="singleLine_list_item_height">48dp</dimen>
+    <dimen name="twoLine_list_item_height">64dp</dimen>
+</resources>

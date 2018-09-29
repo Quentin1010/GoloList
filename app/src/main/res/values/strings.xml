@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GoloList</string>
+    <string name="employee">Employee: %1$s</string>
 </resources>

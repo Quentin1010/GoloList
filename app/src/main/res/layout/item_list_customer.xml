@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/singleLine_list_item_height"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/list_item_edge"
+        android:layout_marginRight="@dimen/list_item_edge">
+
+        <TextView
+            android:id="@+id/person_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/space_between_items"
+            android:layout_toLeftOf="@+id/person_phoneNumber"
+            tools:text="Quentin Beuvelet" />
+
+        <TextView
+            android:id="@+id/person_phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            tools:text="5211252126" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
