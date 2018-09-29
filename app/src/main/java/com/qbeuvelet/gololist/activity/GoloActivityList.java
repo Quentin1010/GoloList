@@ -1,7 +1,9 @@
-package com.qbeuvelet.gololist;
+package com.qbeuvelet.gololist.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.qbeuvelet.gololist.R;
 
 public class GoloActivityList extends AppCompatActivity {
 	
